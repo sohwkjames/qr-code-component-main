@@ -1,0 +1,44 @@
+:root {
+	--width-container: 350px;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	background-color: hsl(212, 45%, 89%);
+	font-family: "Outfit", sans-serif;
+	text-align: center;
+}
+
+.container {
+	background-color: white;
+	border-radius: 15px;
+	outline: white;
+	margin: 50px 20px 10px 20px;
+	width: var(--width-container);
+}
+
+.image-qr {
+	margin: 15px 15px 15px;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.label-big {
+	color: hsl(218, 44%, 22%);
+	font-weight: 700;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: x-large;
+}
+
+.label-small {
+	color: hsl(220, 15%, 55%);
+	font-weight: 400;
+	margin-left: 40px;
+	margin-right: 40px;
+}
